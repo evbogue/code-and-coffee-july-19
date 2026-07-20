@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#5757ff">
+    <meta
+      name="description"
+      content="Chicago Code & Coffee projector slides"
+    >
+    <title>Chicago Code & Coffee</title>
+    <link rel="stylesheet" href="/code-coffee.css">
+  </head>
+  <body>
+    <main class="deck" aria-live="polite">
+      <section class="slide slide-join active" data-duration="16000">
+        <div class="slide-copy">
+          <span class="kicker">Chicago Code &amp; Coffee</span>
+          <h1>Scan to<br><em>join.</em></h1>
+          <p>Make your profile. Find the people who share your sidequests.</p>
+        </div>
+        <iframe
+          class="hero-qr"
+          title="QR code to join Sidequests"
+          src="/qr?url=https%3A%2F%2Fsidequests.evbogue.com%2F%3Fs%3Dcode-and-coffee-july-19th&amp;embed=1"
+        ></iframe>
+      </section>
+
+      <section class="slide slide-social" data-duration="12000">
+        <div class="slide-copy">
+          <span class="kicker">Stay in the loop</span>
+          <h2>Follow Code<br>&amp; Coffee.</h2>
+          <p>Events, community news, and what people are building.</p>
+        </div>
+        <iframe
+          class="hero-qr light-qr"
+          title="QR code for Code and Coffee on LinkedIn"
+          src="/qr?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fchicago-code-and-coffee&amp;embed=1"
+        ></iframe>
+      </section>
+
+      <section class="slide slide-partner" data-duration="12000">
+        <div class="slide-copy">
+          <span class="kicker">Community partner</span>
+          <h2>Prairie<br>Postgres.</h2>
+          <p>With Henrietta Dombrovskaya · Chicago PostgreSQL community</p>
+        </div>
+        <div class="person-visuals">
+          <figure class="person-photo">
+            <img
+              src="/people/henrietta-dombrovskaya.jpg"
+              alt="Henrietta Dombrovskaya"
+            >
+          </figure>
+          <iframe
+            class="team-qr"
+            title="QR code for the Illinois Prairie PostgreSQL User Group"
+            src="/qr?url=https%3A%2F%2Fwww.meetup.com%2Fillinois-prairie-postgresql-user-group%2F&amp;embed=1"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="slide slide-django" data-duration="12000">
+        <div class="slide-copy">
+          <span class="kicker">Coming to Chicago</span>
+          <h2>DjangoCon<br>US 2026.</h2>
+          <p>Five days of talks, tutorials, and community · August 24–28</p>
+        </div>
+        <iframe
+          class="hero-qr"
+          title="QR code for DjangoCon US 2026"
+          src="/qr?url=https%3A%2F%2F2026.djangocon.us%2F&amp;embed=1"
+        ></iframe>
+      </section>
+
+      <section class="slide slide-agent" data-duration="12000">
+        <div class="slide-copy">
+          <span class="kicker">Community partner</span>
+          <h2>Agent Loop<br>Chicago.</h2>
+          <p>With Kevin Solorio · hands-on agent engineering</p>
+        </div>
+        <div class="person-visuals">
+          <figure class="person-photo">
+            <img src="/people/kevin-solorio.jpg" alt="Kevin Solorio">
+          </figure>
+          <iframe
+            class="team-qr"
+            title="QR code for Kevin Solorio on LinkedIn"
+            src="/qr?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkmsolorio&amp;embed=1"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="slide slide-partner" data-duration="12000">
+        <div class="slide-copy">
+          <span class="kicker">Community event</span>
+          <h2>Chicago AT<br>Protocol Meetup.</h2>
+          <p>Hosted by Brian · @ntm.bsky.social · lightning talks</p>
+        </div>
+        <div class="person-visuals">
+          <figure class="person-photo">
+            <img src="/people/brian-atproto.jpg" alt="Brian, ntm on Bluesky">
+          </figure>
+          <iframe
+            class="team-qr"
+            title="QR code for the Chicago AT Protocol Meetup"
+            src="/qr?url=https%3A%2F%2Fatmo.rsvp%2Fp%2Fchicago.at%2Fe%2F3mpparjv44cnf&amp;embed=1"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="slide slide-partner" data-duration="12000">
+        <div class="slide-copy">
+          <span class="kicker">Two open roles</span>
+          <h2>Jack is<br>hiring.</h2>
+          <p>Mid-level full-stack software engineer · Founding engineer</p>
+        </div>
+        <div class="person-visuals">
+          <figure class="person-photo">
+            <img src="/people/jack-soderstrom.png" alt="Jack Soderstrom">
+          </figure>
+          <iframe
+            class="team-qr"
+            title="QR code for Jack Soderstrom on LinkedIn"
+            src="/qr?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjack-soderstrom%2F&amp;embed=1"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="slide slide-wifi" data-duration="10000">
+        <div class="slide-copy">
+          <span class="kicker">Get connected</span>
+          <h2>Scan for<br>Wi-Fi.</h2>
+          <div class="wifi-copy">
+            <p><span>Network</span><strong>CIC Guest</strong></p>
+            <p><span>Password</span><strong>1nnovation</strong></p>
+          </div>
+        </div>
+        <iframe
+          class="hero-qr wifi-qr"
+          title="QR code to join CIC Guest Wi-Fi"
+          src="/qr?wifi=1&amp;embed=1"
+        ></iframe>
+      </section>
+    </main>
+
+    <div class="progress" aria-hidden="true"><i></i></div>
+    <script>
+      const people = [
+        {
+          name: "Akshay Mestry",
+          role: "Organizer",
+          photo: "/people/akshay-mestry.jpg",
+          linkedin: "https://www.linkedin.com/in/xames3/",
+        },
+        {
+          name: "Tejas Nanaware",
+          role: "Organizer",
+          photo: "/people/tejas-nanaware.jpg",
+          linkedin: "https://www.linkedin.com/in/tejasnanaware/",
+        },
+        {
+          name: "Aaron Ramirez",
+          role: "Organizer",
+          photo: "/people/aaron-ramirez.jpg",
+          linkedin: "https://www.linkedin.com/in/aaronsoftware/",
+        },
+        {
+          name: "Robert Ismo",
+          role: "Volunteer",
+          photo: "/people/robert-ismo.jpg",
+          linkedin: "https://www.linkedin.com/in/robertismo/",
+        },
+        {
+          name: "Everett Bogue",
+          role: "Volunteer",
+          photo: "/people/everett-bogue.jpg",
+          linkedin: "https://www.linkedin.com/in/evbogue/",
+        },
+        {
+          name: "Faye Xu",
+          role: "Volunteer",
+          photo: "/people/faye-xu.png",
+          linkedin: "https://www.linkedin.com/in/meet-faye/",
+        },
+        {
+          name: "Jiaming II",
+          role: "Volunteer",
+          photo: "/people/jiaming-ii.png",
+          linkedin: "https://www.linkedin.com/in/jiamingsjourney/",
+        },
+        {
+          name: "Nadiruddin Khan",
+          role: "Volunteer",
+          initials: "NK",
+          linkedin: "https://www.linkedin.com/in/nadiruddinkhan/",
+        },
+        {
+          name: "Judy Cazares",
+          role: "Volunteer",
+          photo: "/people/judy-cazares.jpg",
+          linkedin: "https://www.linkedin.com/in/judyc-data/",
+        },
+      ];
+
+      const deck = document.querySelector(".deck");
+      for (const person of people) {
+        const words = person.name.split(" ");
+        const displayName = words.length > 1
+          ? `${words.slice(0, -1).join(" ")}<br>${words.at(-1)}.`
+          : `${person.name}.`;
+        const photo = person.photo
+          ? `<img src="${person.photo}" alt="${person.name}">`
+          : `<span>${person.initials}</span>`;
+        const qr = person.linkedin
+          ? `<iframe class="team-qr" title="QR code for ${person.name} on LinkedIn"
+              src="/qr?url=${
+            encodeURIComponent(person.linkedin)
+          }&amp;embed=1"></iframe>`
+          : `<div class="no-profile">Say hello<br>in the room.</div>`;
+        deck.insertAdjacentHTML(
+          "beforeend",
+          `
+          <section class="slide slide-person" data-duration="10000">
+            <div class="slide-copy">
+              <span class="kicker">Meet a ${person.role.toLowerCase()}</span>
+              <h2>${displayName}</h2>
+              <p>${person.role} · Chicago Code &amp; Coffee</p>
+            </div>
+            <div class="person-visuals">
+              <figure class="person-photo">${photo}</figure>
+              ${qr}
+            </div>
+          </section>`,
+        );
+      }
+
+      const slides = [...document.querySelectorAll(".slide")];
+      const progress = document.querySelector(".progress i");
+      let current = 0;
+      let timer;
+
+      function show(index) {
+        clearTimeout(timer);
+        current = (index + slides.length) % slides.length;
+        slides.forEach((slide, i) =>
+          slide.classList.toggle("active", i === current)
+        );
+        const duration = Number(slides[current].dataset.duration || 12000);
+        progress.style.animation = "none";
+        requestAnimationFrame(() => {
+          progress.style.animation = `countdown ${duration}ms linear forwards`;
+        });
+        timer = setTimeout(() => show(current + 1), duration);
+      }
+
+      addEventListener("keydown", (event) => {
+        if (event.key === "ArrowRight" || event.key === " ") show(current + 1);
+        if (event.key === "ArrowLeft") show(current - 1);
+      });
+      show(0);
+    </script>
+  </body>
+</html>
