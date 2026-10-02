@@ -1,4 +1,4 @@
-# Chicago Code & Coffee Slides
+# Code & Coffee QR
 
 A one-screen rotating slide deck for Chicago Code & Coffee. It is designed for
 display on a projector at the event and includes QR codes for:
@@ -36,7 +36,8 @@ The live deck is available at
 See [Everett Bogue's Code & Coffee recap on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7485056547383836673/)
 for photos and notes from the event.
 
-Production runs from `/root/codeandcoffee` using `codeandcoffee.service`. This
+Production runs from `/root/codeandcoffee` using the included
+[`codeandcoffee.service`](deploy/codeandcoffee.service). This
 repository intentionally contains only the slide deck, its image assets, and
 the minimal static/QR server. The Sidequests application and its data are
 deployed separately.
